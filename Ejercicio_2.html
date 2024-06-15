@@ -7,10 +7,40 @@
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <style>
-    body{
-        background-color: #553d2a;
-    }
 
+    body {
+          
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: #553d2a;;
+            font-family: Arial, sans-serif;
+        }
+
+        button {
+            padding: 20px 35px;
+            font-size: 20px;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(45deg, #3b2200, #692f13);
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            outline: none;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        button:active {
+            transform: translateY(0);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
 
 </style>
 <body>
@@ -60,6 +90,9 @@
         config
     );
 </script>
-<a style="color: beige;background-color:#907761 ; "href="index.html"> Regresar a la nutripagina </a>
+
 </body>
+<a href="index.html">
+    <button>regresar a la nutripagina</button>
+
 </html>

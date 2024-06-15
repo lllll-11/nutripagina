@@ -1,0 +1,160 @@
+.floating-window {
+    position: fixed;
+    top: 50%;
+    right: 18px;
+    transform: translateY(-50%);
+    width: 200px;
+    padding: 10px;
+    background: rgba(45, 31, 21, 0.5);
+    border: 1px solid #301b00;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.t1t{
+    max-width: 80%;
+}
+.xdxd{
+    max-width: 82%;
+    color: #fff9e1;
+
+}
+.floating-window h3 {
+    margin: 0 0 8px;
+    font-size: 14px; 
+    color: #fff;
+}
+
+.floating-window a {
+    display: block;
+    padding: 8px 0;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color 0.3s;
+}
+
+
+.floating-window a:hover {
+    color: rgb(241, 192, 142); 
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.correo{
+padding: 2%;
+border-radius: 15px;
+max-width: 70%;
+}
+
+
+.listaor{
+    max-width: 80%;
+    font-size: 25px;
+    padding: 28px 1px;
+    color: #fff;
+    background-color: #cf943a;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+.textot{
+    font-size: 20px;
+    color: #fff;
+    max-width: 80%;
+    
+
+}
+
+
+body{
+    background-color: #553d2a;
+}
+h2{
+    color: #907761; 
+    background-color: #ffffff;
+}
+a{
+    font-size: 25px;
+    
+}
+button {
+    position: fixed;
+    padding: 12px 20px;
+    font-size: 10px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(45deg, #cf943a, #682f13);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    outline: none;
+    bottom: 20px;
+    right: 20px
+}
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+    transform: translateY(0);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.desorde{
+    max-width: 80%;
+    font-size: 25px;
+    padding: 28px 1px;
+    color: #fff;
+    background-color: #a06001;
+    border-radius: 20px;
+    text-align: center;
+}
+li{
+    background-color: #443219;
+    font-size: 20px;
+    color: #ffffff;
+    max-width: 80%;
+}
+li::marker{
+    content: "🔰";
+}
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+    
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin: 20px auto; 
+    max-width: 70%;
+}
+
+
+video {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
